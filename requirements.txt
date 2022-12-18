@@ -1,0 +1,7 @@
+django
+text2num
+vosk
+ffmpeg
+pydub
+jellyfish
+pandas

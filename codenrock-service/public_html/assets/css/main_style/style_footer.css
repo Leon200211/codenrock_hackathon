@@ -1,0 +1,21 @@
+
+
+
+.footer{
+    background: #8A2432;
+    color: #d3d3d3;
+    position: relative;
+
+}
+.footer .footer-content{
+    padding: 22px;
+}
+
+.footer_text{
+    padding-top: 20px;
+    margin-left: 400px;
+
+    font-size: 26px;
+}
+
+

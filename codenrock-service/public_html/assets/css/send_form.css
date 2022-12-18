@@ -1,0 +1,134 @@
+/*Новое*/
+
+
+.main_field_div{
+    background-color: #ffffff;
+
+    border: 2px solid #FF7313 ; /* Белая рамка */
+
+    margin-top: 30px;
+
+    padding-left: 50px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.sending_input{
+    border: 2px solid #FF7313 ; /* Белая рамка */
+
+}
+
+.sending_text_main{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sending_text_title{
+
+}
+.sending_text{
+    width:300px;
+    height:150px;
+
+    border: 2px solid #FF7313 ; /* Белая рамка */
+
+}
+
+.input-file-row {
+    margin-top: 30px;
+    display: inline-block;
+}
+.input-file {
+    position: relative;
+    display: inline-block;
+}
+.input-file span {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 22px;
+    height: 50px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin: 0;
+    transition: background-color 0.2s;
+
+
+    background-color: #FF7313;
+    color: white;
+    border: 1px solid #FF7313 ; /* Белая рамка */
+
+    font-size: 26px;
+
+}
+.input-file input[type=file] {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    display: block;
+    width: 0;
+    height: 0;
+}
+
+/* Focus */
+.input-file input[type=file]:focus + span {
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+/* Hover/active */
+.input-file:hover span {
+    border: 1px solid #FF7313; /* Белая рамка */
+    color: rgba(255, 115, 20, 0.9);
+    background: rgba(0,0,0,0);
+}
+.input-file:active span {
+    border: 1px solid #FF7313; /* Белая рамка */
+    color: rgba(255, 115, 20, 0.9);
+    background: rgba(0,0,0,0);
+}
+
+/* Disabled */
+.input-file input[type=file]:disabled + span {
+    background-color: #eee;
+}
+
+/* Список c превью */
+.input-file-list {
+    padding: 10px 0;
+}
+.input-file-list-item {
+    display: inline-block;
+    margin: 0 15px 15px;
+    width: 150px;
+    vertical-align: top;
+    position: relative;
+}
+.input-file-list-item img {
+    width: 150px;
+}
+.input-file-list-name {
+    text-align: center;
+    display: block;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.input-file-list-remove {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 5px;
+    right: 5px;
+    background: #ff0202;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    line-height: 16px;
+    border-radius: 50%;
+}

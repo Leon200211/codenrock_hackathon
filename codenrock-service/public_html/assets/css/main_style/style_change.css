@@ -1,0 +1,61 @@
+
+/* Стили для переключение между комнатами */
+
+
+.room_list{
+    display: flex;
+
+    margin-bottom: 25px;
+
+
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+
+
+.common_button_room_list{
+    color: white;
+    border: none;
+    background: none;
+    padding: 3px 20px;
+    font-size: 37px;
+}
+.common_button_room_list.show{
+    color: white;
+    border: none;
+    background: none;
+    padding: 3px 20px;
+    font-size: 37px;
+}
+.common_button_room_list:after {
+    display: block; /*превращаем его в блочный элемент*/
+    content: ""; /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
+    height: 3px; /*задаём высоту линии*/
+    width: 0%; /*задаём начальную ширину элемента (линии)*/
+    background-color: #FF7313; /*цвет фона элемента*/
+    transition: width 0.4s ease-in-out; /*данное свойство отвечает за плавное изменение ширины. Здесь можно задать время анимации в секундах (в данном случае задано 0.4 секунды)*/
+}
+.common_button_room_list:hover:after,
+.common_button_room_list:focus:after {
+    width: 100%;
+}
+.common_button_room_list:hover{
+    color:#FF7313;
+}
+
+
+.main_field_div_for_room{
+    margin-top: 150px;
+}
+.room_main_info{
+    display: none;
+}
+.room_main_info.show{
+    display: block;
+
+
+
+    text-align: center;
+}
+

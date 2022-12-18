@@ -1,0 +1,273 @@
+
+
+
+
+
+.main_img{
+    height: 600px;
+    width: 100%;
+
+    filter: brightness(60%);
+
+    background-image: url("../img/train.jpg");
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 100%;
+}
+
+.main_img_blog{
+    margin: 0;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    border: 4px solid #FF7313;
+
+    filter: brightness(100%);
+}
+
+
+.main_img_blog_title{
+    color: white;
+
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+
+    padding-top: 30px;
+
+    filter: brightness(100%);
+}
+.main_img_blog_text{
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+
+    filter: brightness(100%);
+}
+
+
+
+
+.main_body{
+    height: 800px;
+
+    background: #393F47;
+}
+
+.audio_canvas{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 150px;
+
+}
+.under_audio{
+    margin-top: 20px;
+}
+.button{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 5px;
+    padding: 5px 12px;
+    cursor: pointer;
+    outline: none;
+
+    text-decoration: none !important;
+    text-align: center;
+    color:#fff;
+    background-color: #FF7313  ;
+    background-image: linear-gradient(top, #FF7313 , #FF7313 );
+    background-image: -ms-linear-gradient(top, #FF7313 , #FF7313 );
+    background-image: -o-linear-gradient(top, #FF7313 , #FF7313 );
+    background-image: linear-gradient(top, #FF7313 , #FF7313 );
+    border: 1px solid #FF7313 ;
+    box-shadow: 0 1px 3px #BFBFBF;
+
+    font-size: 20px;
+}
+a.button{
+    color: #fff;
+}
+.button:hover{
+    box-shadow: inset 0px 1px 1px #8C8C8C;
+}
+.bottom_line{
+    margin-top: 20px;
+}
+.live_voice{
+    color: white;
+}
+.button.disabled{
+    box-shadow:none;
+    opacity:0.7;
+}
+canvas{
+    display: block;
+}
+
+
+
+.second_page{
+    padding-bottom: 50px;
+}
+
+.second_img{
+    height: 600px;
+    width: 100%;
+
+    filter: brightness(60%);
+
+    background-image: url("../img/train_2.jpg");
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 100%;
+
+}
+.second_img_blog{
+    margin: 0;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    border: 4px solid #FF7313;
+
+    filter: brightness(100%);
+}
+.second_img_blog_title{
+    color: white;
+
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+
+    padding: 50px;
+
+    filter: brightness(100%);
+}
+
+
+
+
+
+.second_page{
+    padding-top: 50px;
+    background: #2F343A;
+}
+.second_page_title{
+    color: white;
+
+    font-size: 30px;
+
+    text-align: center;
+
+    font-weight: bold;
+}
+.second_page_title:after{
+    content: '';
+    display: block;
+    height: 3px; /* Высота линии */
+    background: #FF7313; /* Цвет линии */
+    width: 200px; /* Ширина линии до наведения */
+    margin: 10px auto 0; /* Отступ с боков по центру и сверху */
+    transition: 1s; /* Время, за которое линия возвращается после наведения */
+}
+
+
+
+
+.blog_table{
+    margin-top: 50px;
+
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 65em;
+
+
+
+    height: 800px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+
+}
+.blog_table::-webkit-scrollbar {
+    width: 8px;               /* ширина scrollbar */
+}
+.blog_table::-webkit-scrollbar-thumb {
+    background-color: #FF7313;    /* цвет плашки */
+    border-radius: 15px;       /* закругления плашки */
+}
+
+
+
+.second_page_table {
+    text-align: center;
+
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    width: 1000px;
+
+    border-collapse: collapse;
+    background: #393F47;
+    margin-top: 30px;
+}
+.second_page_table th {
+    color: #FF7313;
+    border-bottom: 1px solid #FF7313;
+    padding: 12px 17px;
+}
+.second_page_table td {
+    color: #CAD4D6;
+    border-bottom: 1px solid #FF7313;
+    border-right:1px solid #FF7313;
+    padding: 7px 17px;
+}
+.second_page_table tr:last-child td {
+    border-bottom: none;
+}
+.second_page_table td:last-child {
+    border-right: none;
+}
+.second_page_table tr:hover td {
+    text-decoration: underline;
+}
+
+
+
+
+.download{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.download_button {
+
+    width: 115px;
+    height: 25px;
+    background: #FF7313;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+
+    text-decoration: none;
+}
+
+.download_button:hover{
+    color: #FF7313;
+    background: white;
+}
+
+
+
