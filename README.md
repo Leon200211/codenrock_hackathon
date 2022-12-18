@@ -18,7 +18,25 @@
 
 ## Реализация
 
+
+#### Стек технологий
+* Модель
+  * Python
+  * Библиотека vosk
+* Веб-сервис 
+  * PHP
+  * JS
+* Api
+  * django
+* Телеграм бот
+  * Python
+
+#### Финальное решение
+
 ![image](https://user-images.githubusercontent.com/91278041/208307743-634a7be0-32ec-4e4e-aff4-9364a79efd35.png)
+
+#### Интерфейс
+
 ![photo_5258449007796142390_w](https://user-images.githubusercontent.com/91278041/208307807-a634b24b-c88c-4606-8a0e-ee6d5a6018f5.jpg)
 ![photo_5258449007796142393_w](https://user-images.githubusercontent.com/91278041/208307810-e710ba96-e41e-4189-91e0-7c305d2e4c51.jpg)
 ![photo_5258449007796142397_w](https://user-images.githubusercontent.com/91278041/208307811-78736d65-603b-4a92-a849-ae7690a4cc6c.jpg)
