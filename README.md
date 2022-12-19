@@ -6,7 +6,7 @@
 </p>
 
 *Команда "Ёлки палки, дед мороз!"*   
-*Чиженко Леон (https://github.com/Leon200211) - Frontend-разработчик*    
+*Чиженко Леон (https://github.com/Leon200211) - Full-stack-разработчик*    
 *Сергей Куликов (https://github.com/MrMarvel) - Backend-разработчик*  
 *Хан Анастасия (https://github.com/Nanochka1) - Дизайнер*  
 *Валуева Анастасия (https://github.com/VoLuIcHiK) - Data Scientist*   
