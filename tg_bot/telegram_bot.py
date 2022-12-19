@@ -8,7 +8,7 @@ from io import StringIO
 
 
 # Создаем бота
-bot = telebot.TeleBot('5978412915:AAFYhZGFo8ZEVt8MFbCBaCzSWzgjqORxCpA')
+bot = telebot.TeleBot(BOT_TOKEN)
 
 messages = ['', '']  # для отлова ролей
 admin_state = [0, '']  # для админа
